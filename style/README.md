@@ -252,7 +252,7 @@ Testing
 [Sample](samples/testing.rb)
 
 * Use a single, top-level `describe ClassName` block.
-* Put matchers test on top of the file, in `it` block.
+* Put single-line macro specs at the beginning of the outer `describe` blocks.
 * Use `describe #method_name` to group tests by method-under-test
 * Use `context` to describe testing preconditions.
 * Don't prefix `it` block descriptions with `should`. Use [Imperative mood] instead.
