@@ -252,11 +252,10 @@ Testing
 [Sample](samples/testing.rb)
 
 * Use a single, top-level `describe ClassName` block.
-* Put single-line macro specs at the beginning of the outer `describe` blocks.
-* Use `describe #method_name` to group tests by method-under-test
+* Put one-liner specs at the beginning of the outer `describe` blocks.
+* Use `describe '#method_name'` to group tests by method-under-test
 * Use `context` to describe testing preconditions.
 * Don't prefix `it` block descriptions with `should`. Use [Imperative mood] instead.
-* Name outer `describe` blocks after the method under test.
 * Use `.method` for class methods and `#method` for instance methods.
 
 [Imperative mood]: http://en.wikipedia.org/wiki/Imperative_mood
