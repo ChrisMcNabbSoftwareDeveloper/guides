@@ -256,7 +256,7 @@ Testing
 * Use `describe '#method_name'` to group tests by method-under-test
 * Use `context` to describe testing preconditions.
 * Don't prefix `it` block descriptions with `should`. Use [Imperative mood] instead.
-* Use `.method` for class methods and `#method` for instance methods.
+* Use `.method` to describe class methods and `#method` to describe instance methods.
 
 [Imperative mood]: http://en.wikipedia.org/wiki/Imperative_mood
 
